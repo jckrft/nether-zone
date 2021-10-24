@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 
 import Carousel from 'react-bootstrap/Carousel'
+import Comments from './Comments.js'
 
 
 
@@ -37,6 +38,7 @@ function Jeremy({ data }) {
           </div>
         </div>
       ))}
+      <Comments />
     </div>
   )
 }

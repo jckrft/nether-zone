@@ -3,6 +3,9 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 
 import Jeremy from './components/Jeremy.js'
+import SuperHans from './components/SuperHans.js'
+import Mark from './components/Mark.js'
+import Home from './components/Home.js'
 
 
 function App() {
@@ -26,12 +29,31 @@ function App() {
         <Link to='/jeremy'>
           Jeremy
         </Link>
-        </nav>
+      </nav>
+      
+      <Link to='/' exact>
+        nether zone
+      </Link>
+
+      {/* <Route>
+        <Home />
+      </Route> */}
+
       <Route path="/jeremy">
         <Jeremy
           data={data}
         />
       </Route>
+      {/* <Route path="/superhans">
+        <SuperHans
+          data={data}
+        />
+      </Route>
+      <Route path="/mark">
+        <Mark
+          data={data}
+        />
+      </Route> */}
 
 
     </div>
