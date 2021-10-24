@@ -7,21 +7,32 @@ import Carousel from 'react-bootstrap/Carousel'
 const API_URL = 'https://api.airtable.com/v0/apphxbPJK0bBSbqII/Table%201?api_key=keyr5pmOBeTGWboAj'
 
 function Jeremy() {
-  const [data, setData] = useState([]);
+  const [jeremyData, setJeremyData] = useState([]);
     
 
   useEffect(() => {
-    const getData = async () => {
+    const getJeremyData = async () => {
       const resp = await axios.get(API_URL)
-      setData(resp.data.records)
+      setJeremyData(resp.data.records)
     }
 
-    getData();
+    getJeremyData();
   }, []);
   
   return (
     <div>
-      
+      {/* <Carousel.Item>
+        <img
+          src=
+      </Carousel.Item> */}
+      {jeremyData.map((jeremy) => (
+        <div>
+          <h1 key={jeremy.id}>{jeremy.fields.series}</h1>)
+          <div>
+          <img src={jeremy.fields.quotes.url} />
+          </div>
+        </div>
+      ))}
     </div>
   )
 }
