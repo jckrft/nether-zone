@@ -4,32 +4,36 @@ import axios from 'axios'
 
 import Carousel from 'react-bootstrap/Carousel'
 
-const API_URL = 'https://api.airtable.com/v0/apphxbPJK0bBSbqII/Table%201?api_key=keyr5pmOBeTGWboAj'
 
-function Jeremy() {
-  const [jeremyData, setJeremyData] = useState([]);
-    
 
-  useEffect(() => {
-    const getJeremyData = async () => {
-      const resp = await axios.get(API_URL)
-      setJeremyData(resp.data.records)
-    }
+function Jeremy({ data }) {
+  
+  const jeremyData = data.filter(quote => quote.fields.character === 'jeremy')
 
-    getJeremyData();
-  }, []);
   
   return (
     <div>
-      {/* <Carousel.Item>
+      {/* 
+      <Carousel>
+      
+      <Carousel.Item>
         <img
+          className=
           src=
-      </Carousel.Item> */}
+          alt=
+      </Carousel.Item> 
+      
+      <Carousel.Caption
+      </Carousel.Caption>
+      
+      </Carousel*/}
+      
       {jeremyData.map((jeremy) => (
         <div>
-          <h1 key={jeremy.id}>{jeremy.fields.series}</h1>)
+          <h1 key={jeremy.id}>{jeremy.fields.series}</h1>
+          <h1 key={jeremy.id}>{jeremy.fields.title}</h1>
           <div>
-          <img src={jeremy.fields.quotes.url} />
+          <img src={jeremy.fields.quotes[0].url} />
           </div>
         </div>
       ))}
