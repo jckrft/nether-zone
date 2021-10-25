@@ -27,6 +27,9 @@ function App() {
   return (
     <div className="App">
       <nav>
+      <Link to='/mark'>
+          Mark
+        </Link>
         <Link to='/jeremy'>
           Jeremy
         </Link>
@@ -57,11 +60,13 @@ function App() {
           toggleFetch={toggleFetch}
         />
       </Route>
-      {/* <Route path="/mark">
+      <Route path="/mark">
         <Mark
           data={data}
+          setToggleFetch={setToggleFetch}
+          toggleFetch={toggleFetch}
         />
-      </Route> */}
+      </Route>
 
 
     </div>
