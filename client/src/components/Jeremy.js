@@ -1,13 +1,9 @@
-import { Link, Router } from 'react-router-dom'
-import { useState, useEffect } from 'react'
-import axios from 'axios'
-
 import Carousel from 'react-bootstrap/Carousel'
 import Comments from './Comments.js'
 
 
 
-function Jeremy({ data }) {
+function Jeremy({ data, toggleFetch, setToggleFetch }) {
   
   const jeremyData = data.filter(quote => quote.fields.character === 'jeremy')
 
@@ -30,15 +26,18 @@ function Jeremy({ data }) {
       </Carousel*/}
       
       {jeremyData.map((jeremy) => (
-        <div>
-          <h1 key={jeremy.id}>{jeremy.fields.series}</h1>
-          <h1 key={jeremy.id}>{jeremy.fields.title}</h1>
+        <div key={jeremy.id}>
+          <h1>{jeremy.fields.series}</h1>
+          <h1>{jeremy.fields.title}</h1>
           <div>
           <img src={jeremy.fields.quotes[0].url} />
           </div>
         </div>
       ))}
-      <Comments />
+      <Comments
+        setToggleFetch={setToggleFetch}
+        toggleFetch={toggleFetch}
+      />
     </div>
   )
 }

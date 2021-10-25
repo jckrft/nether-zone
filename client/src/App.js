@@ -10,6 +10,7 @@ import Home from './components/Home.js'
 
 function App() {
   const [data, setData] = useState([]);
+  const [toggleFetch, setToggleFetch] = useState(true);
 
   const API_URL = 'https://api.airtable.com/v0/apphxbPJK0bBSbqII/Table%201?api_key=keyr5pmOBeTGWboAj'
     
@@ -21,7 +22,7 @@ function App() {
     }
 
     getData();
-  }, []);
+  }, [toggleFetch]);
   
   return (
     <div className="App">
@@ -31,7 +32,7 @@ function App() {
         </Link>
       </nav>
       
-      <Link to='/' exact>
+      <Link to='/'>
         nether zone
       </Link>
 
@@ -42,6 +43,8 @@ function App() {
       <Route path="/jeremy">
         <Jeremy
           data={data}
+          setToggleFetch={setToggleFetch}
+          toggleFetch={toggleFetch}
         />
       </Route>
       {/* <Route path="/superhans">
