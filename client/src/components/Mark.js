@@ -20,9 +20,10 @@ function Mark({ data, toggleFetch, setToggleFetch }) {
           ))}
         </Carousel.Item>
         
-        {/* <Carousel.Caption>
+        
+        <Carousel.Caption>
           <h1>crunchy nut</h1>
-        </Carousel.Caption> */}
+        </Carousel.Caption>
 
       </Carousel>
       <Comments />
