@@ -23,7 +23,7 @@ function Jeremy({ data, toggleFetch, setToggleFetch }) {
       <Carousel.Caption
       </Carousel.Caption>
       
-      </Carousel*/}
+      </Carousel>*/}
       
       {jeremyData.map((jeremy) => (
         <div key={jeremy.id}>

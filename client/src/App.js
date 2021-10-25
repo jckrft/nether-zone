@@ -30,6 +30,9 @@ function App() {
         <Link to='/jeremy'>
           Jeremy
         </Link>
+        <Link to='/superhans'>
+          Super Hans
+        </Link>
       </nav>
       
       <Link to='/'>
@@ -47,12 +50,14 @@ function App() {
           toggleFetch={toggleFetch}
         />
       </Route>
-      {/* <Route path="/superhans">
+      <Route path="/superhans">
         <SuperHans
           data={data}
+          setToggleFetch={setToggleFetch}
+          toggleFetch={toggleFetch}
         />
       </Route>
-      <Route path="/mark">
+      {/* <Route path="/mark">
         <Mark
           data={data}
         />
