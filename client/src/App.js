@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
+      {/* <Home /> */}
       {/* <nav>
       <Link to='/mark'>
           Mark
@@ -45,26 +45,26 @@ function App() {
         nether zone
       </Link> */}
 
-      {/* <Route path="/" exact>
+      <Route exact path="/">
         <Home />
-      </Route> */}
+      </Route>
       
 
-      <Route path="/jeremy">
+      <Route exact path="/jeremy">
         <Jeremy
           data={data}
           setToggleFetch={setToggleFetch}
           toggleFetch={toggleFetch}
         />
       </Route>
-      <Route path="/superhans">
+      <Route exact path="/superhans">
         <SuperHans
           data={data}
           setToggleFetch={setToggleFetch}
           toggleFetch={toggleFetch}
         />
       </Route>
-      <Route path="/mark">
+      <Route exact path="/mark">
         <Mark
           data={data}
           setToggleFetch={setToggleFetch}

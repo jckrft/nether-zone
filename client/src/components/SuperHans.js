@@ -1,6 +1,7 @@
 import Comments from './Comments.js'
 
 import Carousel from 'react-bootstrap/Carousel'
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function SuperHans({ data, toggleFetch, setToggleFetch }) {
   
@@ -21,12 +22,12 @@ function SuperHans({ data, toggleFetch, setToggleFetch }) {
             ))}
         </Carousel.Item>
         
-        {superHansData.map((superhans) => (
+        {/* {superHansData.map((superhans) => (
           <Carousel.Caption>
             <h1>{superhans.fields.series}</h1>
             <h1>{superhans.fields.title}</h1>
           </Carousel.Caption>
-        ))}
+        ))} */}
       </Carousel>
       <Comments />
     </div>

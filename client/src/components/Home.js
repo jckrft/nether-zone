@@ -5,15 +5,15 @@ import './Home.css'
 function Home() {
   return (
     <div className='images'>
+      <div className='jez'>
+        <img src={Jez}
+          alt="jeremy"
+        />
+      </div>
     <div className='mark'>
       <img src={Mark}
         alt="mark"
       />
-      </div>
-<div className='jez'>
-        <img src={Jez}
-          alt="jeremy"
-        />
       </div>
       </div>
 

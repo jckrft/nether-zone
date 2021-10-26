@@ -11,19 +11,24 @@ function Mark({ data, toggleFetch, setToggleFetch }) {
       <Carousel>
       
         <Carousel.Item>
-          {markData.map((mark) => (
             <img
               className="superhans"
-              src={mark.fields.quotes[0].url}
+              src="https://64.media.tumblr.com/b51a287d2c65d8f160fd09d8f4dca1d5/tumblr_oh7kamMnaY1vfz7jgo1_1280.png"
               alt="crunchy nut"
             />
-          ))}
         </Carousel.Item>
         
         
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h1>crunchy nut</h1>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
+                <Carousel.Item>
+            <img
+              className="superhans"
+              src="https://64.media.tumblr.com/6882c484aebf460f55e65b6573330596/tumblr_ok714j5i9a1vfz7jgo1_1280.png"
+              alt="crunchy nut"
+            />
+        </Carousel.Item>
 
       </Carousel>
       <Comments />
