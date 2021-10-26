@@ -5,6 +5,7 @@ import Carousel from 'react-bootstrap/Carousel'
 function SuperHans({ data, toggleFetch, setToggleFetch }) {
   
   const superHansData = data.filter(quote => quote.fields.character === 'super hans')
+  
 
   return (
     <div>

@@ -6,6 +6,7 @@ import Jeremy from './components/Jeremy.js'
 import SuperHans from './components/SuperHans.js'
 import Mark from './components/Mark.js'
 import Home from './components/Home.js'
+import Navbar from './components/Navbar.js'
 
 
 function App() {
@@ -26,7 +27,9 @@ function App() {
   
   return (
     <div className="App">
-      <nav>
+      <Navbar />
+      <Home />
+      {/* <nav>
       <Link to='/mark'>
           Mark
         </Link>
@@ -37,10 +40,10 @@ function App() {
           Super Hans
         </Link>
       </nav>
-      
-      <Link to='/'>
+       */}
+      {/* <Link to='/'>
         nether zone
-      </Link>
+      </Link> */}
 
       {/* <Route>
         <Home />
@@ -66,7 +69,7 @@ function App() {
           setToggleFetch={setToggleFetch}
           toggleFetch={toggleFetch}
         />
-      </Route>
+      </Route> 
 
 
     </div>
