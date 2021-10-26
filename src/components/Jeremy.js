@@ -1,4 +1,4 @@
-import Carousel from 'react-bootstrap/Carousel'
+// import Carousel from 'react-bootstrap/Carousel'
 import Comments from './Comments.js'
 
 
@@ -30,7 +30,8 @@ function Jeremy({ data, toggleFetch, setToggleFetch }) {
           <h1>{jeremy.fields.series}</h1>
           <h1>{jeremy.fields.title}</h1>
           <div>
-          <img src={jeremy.fields.quotes[0].url} />
+          <img src={jeremy.fields.quotes[0].url} 
+          alt="jeremy"/>
           </div>
         </div>
       ))}
