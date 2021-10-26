@@ -1,10 +1,15 @@
 import { Link } from 'react-router-dom'
 
 function Navbar() {
+
   
   return (
     <div className="nav">
       <nav>
+      <Link to='/'>
+        nether zone
+        </Link>
+        
       <Link to='/mark' exact>
           Mark
         </Link>
@@ -15,10 +20,7 @@ function Navbar() {
           Super Hans
         </Link>
       </nav>
-      
-      <Link to='/'>
-        nether zone
-      </Link>
+    
     </div>
   )
 }
