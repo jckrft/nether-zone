@@ -1,4 +1,4 @@
-import { Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
@@ -27,7 +27,7 @@ function App() {
   
   return (
     <div className="App">
-      <Navbar />
+      
       {/* <Home /> */}
       {/* <nav>
       <Link to='/mark'>
@@ -44,6 +44,8 @@ function App() {
       {/* <Link to='/'>
         nether zone
       </Link> */}
+
+      <Navbar />      
 
       <Route exact path="/">
         <Home />

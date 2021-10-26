@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Form from 'react-bootstrap/Form'
 import axios from 'axios'
 
 
@@ -8,6 +9,7 @@ function Comments({toggleFetch, setToggleFetch}) {
   const [comments, setComments] = useState([]);
   const [yourname, setYourname] = useState('');
   const [yourquote, setYourquote] = useState('');
+  
 
   useEffect(() => {
     const getComments = async () => {
@@ -39,7 +41,23 @@ function Comments({toggleFetch, setToggleFetch}) {
   return (
     <div>
       <div className='comment-form'>
-      <form onSubmit={handlePostRequest}>
+      <Form onSubmit={handlePostRequest}>
+  <Form.Group className="text-name" controlId="exampleForm.ControlInput1">
+    <Form.Label></Form.Label>
+    <Form.Control type="text" placeholder="your name"           value={yourname}
+          onChange={(ev) => setYourname(ev.target.value)}/>
+  </Form.Group>
+  <Form.Group className="text-quote" controlId="exampleForm.ControlTextarea1">
+    <Form.Label></Form.Label>
+            <Form.Control as="textarea" rows={3} placeholder="what was it Shakespeare said?"   value={yourquote}
+          onChange={(ev) => setYourquote(ev.target.value)}/>
+            <input type="submit" />
+  </Form.Group>
+</Form>
+      
+        
+        
+        {/* <form onSubmit={handlePostRequest}>
       <label htmlFor="commentName">Your Name:</label>
         <input
           type="text"
@@ -61,7 +79,7 @@ function Comments({toggleFetch, setToggleFetch}) {
           />
           <br />
           <input type="submit" />
-      </form>
+      </form> */}
       </div>
 
       <div className='comments'>
