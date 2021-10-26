@@ -13,7 +13,7 @@ function App() {
   const [data, setData] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(true);
 
-  const API_URL = 'https://api.airtable.com/v0/apphxbPJK0bBSbqII/Table%201?api_key=keyr5pmOBeTGWboAj'
+  const API_URL = `https://api.airtable.com/v0/apphxbPJK0bBSbqII/Table%201?api_key=${process.env.REACT_APP_API_KEY}`
     
 
   useEffect(() => {
