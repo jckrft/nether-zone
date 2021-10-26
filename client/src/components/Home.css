@@ -1,0 +1,18 @@
+.image {
+  display: flex;
+  position: relative;
+  
+}
+
+.mark img{
+  position: absolute;
+  width: 50%;
+  justify-content: center;
+  /* height: 50px; */
+}
+
+.jez img{
+  position: absolute;
+  width: 50%;
+  justify-content: center;
+}

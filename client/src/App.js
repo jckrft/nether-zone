@@ -40,14 +40,15 @@ function App() {
           Super Hans
         </Link>
       </nav>
-       */}
+       
       {/* <Link to='/'>
         nether zone
       </Link> */}
 
-      {/* <Route>
+      {/* <Route path="/" exact>
         <Home />
       </Route> */}
+      
 
       <Route path="/jeremy">
         <Jeremy

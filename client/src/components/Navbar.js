@@ -5,10 +5,10 @@ function Navbar() {
   return (
     <div className="nav">
       <nav>
-      <Link to='/mark'>
+      <Link to='/mark' exact>
           Mark
         </Link>
-        <Link to='/jeremy'>
+        <Link to='/jeremy' exact>
           Jeremy
         </Link>
         <Link to='/superhans'>
