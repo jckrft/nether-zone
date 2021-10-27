@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import './Navbar.css'
+// import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 
 function Navbar() {
@@ -12,7 +12,7 @@ function Navbar() {
   
   return (
     <div className='navbar'>
-      {/* <nav className="navbar">
+      <nav className="navbar">
         <Link to='/' className='nav'>
           nether zone
         </Link>
@@ -38,9 +38,9 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-      </nav> */}
+      </nav> 
       
-      
+{/*       
       
       <Link to='/' className='home'>
         nether zone
@@ -55,7 +55,7 @@ function Navbar() {
         <Link to='/superhans' exact className='nav-item'>
           Super Hans
         </Link>
-      </nav>
+      </nav> */}
     
     </div>
   )

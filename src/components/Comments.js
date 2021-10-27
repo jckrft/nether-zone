@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Form from 'react-bootstrap/Form'
 import axios from 'axios'
-import './Comments.css'
+// import './App.css'
 
 
 const API_URL = 'https://api.airtable.com/v0/appUtL9vcQjNL8IK8/Table%201?api_key=keyr5pmOBeTGWboAj'

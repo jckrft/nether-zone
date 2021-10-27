@@ -1,6 +1,6 @@
 import Mark from './mark edit II.png'
 import Jez from './jez edit II.png'
-import './Home.css'
+// import './App.css'
 
 function Home() {
   return (

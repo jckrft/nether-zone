@@ -1,4 +1,5 @@
 import Comments from './Comments.js'
+// import './App.css'
 
 import Carousel from 'react-bootstrap/Carousel'
 import "bootstrap/dist/css/bootstrap.min.css"

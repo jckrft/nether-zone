@@ -1,4 +1,162 @@
 .App {
   background-color: #D0CBCF;
+  display: flex;;
+}
+
+/* ----Nav---- */
+.navbar {
+  display: flex;
+  height: 120px;
+}
+
+.nav-item {
+  padding: 0px;
+}
+
+.nav {
+  text-decoration: none;
+  top:0px;
+  right:0px;
+}
+
+.menu-icon {
+  justify-items: center;
+}
+
+.home {
+  padding: 10px;
+  padding-left: 20px;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+
+.nav-menu {
+  display: none;
+}
+
+.active {
+  display: inline;
+  /* justify-content: end; */
+}
+
+.nav-links {
+  color: grey;
+  text-decoration: none;
+} 
+
+/* ----comments---- */
+.text-name {
+  width: 200px;
+}
+
+.text-quote {
+width: 300px;
+}
+
+.comments {
+width: 400px;
+padding-top: 80px;
+}
+
+.comment-box {
+border: #D6D6D6 solid 1px;
+border-radius: 8px;
+background-color: white;
+}
+
+.comment-name {
+padding: 0px;
+}
+
+.comment-quote {
+padding-top: 0px;
+}
+
+/* ----Home---- */
+.images {
+  justify-self: center;
+
+}
+
+.images img{
+  position:absolute;
+  top:0;
+-webkit-animation-name: fade;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 5s;
+animation-name: fade;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
+
+
+@-webkit-keyframes fade {
+  0% {
+    opacity:1;
+  }
+  55% {
+  opacity:.5;
+  }
+  85% {
+  opacity:0;
+  }
+  100% {
+  opacity:.5;
+  }
+}
+@keyframes fade {
+  0% {
+  opacity:1;
+}
+55% {
+opacity:.5;
+}
+85% {
+opacity:0;
+}
+100% {
+opacity:.5;
+}
+}
+
+
+.mark img{
+  position: absolute;
+  /* animation-delay: -2s; */
+  top: 10px;
+  left: 10px;
+  width: 1000px;
+  z-index: 2;
+}
+
+.jez img{
+  /* -webkit-animation-delay: -4s; */
+  animation-delay: -1s;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 1000px;
+  z-index: 1;
+}
+
+/* ----Carousel---- */
+.carousel {
+  /* min-height: 50px; */
+  width: 500px;
+  height: 300px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.carousel .item {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
 }
 

@@ -1,32 +1,54 @@
 # the-nether-zone
 
 ### App Title: 
-the nether zone                                      
+nether zone                                      
 
 ### App Description: 
 the best peep show quotes built using Airtable and React. The menu features pages for each character, when clicked they will show a carosel of best quotes along with information such as series and episode number and name. Each page will also feature a comment section to add your own favorite quote.
 
-### Component Hierarchy:
-
-
-### API: 
-```
-```
-
 ### Wireframes: 
 https://whimsical.com/the-nether-zone-5ua3FPNVeMUaWc1FNQWCVM
 
+### Component Hierarchy:
+
+### API: 
+Airtable was used to create and store addition comments & quotes from users. 
+```
+{
+    "records": [
+        {
+            "id": "recC273HHForui0Sx",
+            "fields": {
+                "yourname": "Sophie",
+                "yourquote": "I thought I knew what I was doing with my life but I haven't got a fucking clue"
+            },
+            "createdTime": "2021-10-24T21:02:33.000Z"
+        },
+        {
+            "id": "recL2y67HbCpR34Qj",
+            "fields": {
+                "yourname": "Jeff",
+                "yourquote": "Soz!"
+            },
+            "createdTime": "2021-10-24T22:27:30.000Z"
+        }
+    ],
+    "offset": "itrNC5djVgTYlN3I5/recL2y67HbCpR34Qj"
+}
+```
+
 ### MVP 
 
-* Incorporate MET Museum’s API
-* Create the page layout using HTML & Javascript
+* Create React app
+* Create and impliment Airtable with a GET and POST
+* Utilize six separate components
 * Style using CSS & Flex Box 
-* Choose moods and reder those options to the page with a drop down  
+* Using Bootstrap carousel, populate each page with specific quote images  
 * Add a media query for mobile                                            
 
 ### Post-MVP
-* Add a second API for films to include a film suggestion 
-* Animated color changing background.
+* Hamburger menu 
+* Animated home page art
 
 
 

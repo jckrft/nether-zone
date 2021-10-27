@@ -1,5 +1,20 @@
+.navbar {
+  display: flex;
+  height: 120px;
+}
+
 .nav-item {
-  padding: 10px;
+  padding: 0px;
+}
+
+.nav {
+  text-decoration: none;
+  top:0px;
+  right:0px;
+}
+
+.menu-icon {
+  justify-items: end;
 }
 
 .home {
@@ -8,7 +23,7 @@
 }
 
 
-/* 
+
 ul {
   list-style: none;
 }
@@ -19,11 +34,11 @@ ul {
 }
 
 .active {
-  display: block;
-  justify-content: end;
+  display: inline;
+  /* justify-content: end; */
 }
 
 .nav-links {
   color: grey;
   text-decoration: none;
-}  */
+} 

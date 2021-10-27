@@ -1,7 +1,10 @@
 .carousel {
   /* min-height: 50px; */
+  display: flex;
   width: 500px;
   height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel .item {
