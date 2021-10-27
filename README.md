@@ -50,30 +50,29 @@ Airtable was used to create and store addition comments & quotes from users.
 * Hamburger menu 
 * Animated home page art
 
-
-
 ### Goals
-| Day            | Task                   | y/n   |
-| -------------  |:-------------:         | -----:|
-| Friday 10/1    | finish pitch           |   y   |
-| Saturday 10/2  | pseduo code & find art |   y   |
-| Sunday 10/3    | structure HTML & JS    |   y   |
-| Monday 10/4.   | JS & CSS               |   y   |
-| Tuesday 10/5.  | CSS                    |   y   |
-| Wednesday 10/6 | post MVP work          |   y   |
-| Thursday 10/7. | polish                 |   y   |
-| Friday 10/8.   | present                |   y   |
+| Day             | Task                                | y/n   |
+| -------------   |:-------------:                      | -----:|
+| Friday 10/22    | finish pitch                        |   y   |
+| Saturday 10/23  | pseduo code/Create react & airtable |   y   |
+| Sunday 10/24    | axios request/component structure   |   y   |
+| Monday 10/25    | finish building out components      |   y   |
+| Tuesday 10/26   | build nav bar and work on css       |   y   |
+| Wednesday 10/27 | continue styling and nav bar        |       |
+| Thursday 10/28  | polish                              |       |
+| Friday 10/29    | present                             |       |
 
 ### Timeframe
-| Task           | Estimated              | Actual |
-| -------------  |:-------------:         | -----: |
-| finding API    | 20 min                 | 5 min  |
-| solidify idea  | 30 min                 | 20 min |
-| finish pitch   | 3 hr                   | 3 hr   |
-| write HTML     | 1 hr                   | 1 hr   |
-| start JS       | 3 hr                   | 3 hr   |
-| finish JS      | 2 hr                   | 2 hr   |
-| start CSS      | 3 hr                   | 2 hr   |
-| finish CSS     | 1 hr                   | 1 hr   |
-| post MVP       | 3 hr                   | 3 hr   |
+| Task                                     | Estimated              | Actual |
+| -------------                            |:-------------:         | -----: |
+| creating API                             | 20 min                 | 20 min  |
+| solidify idea                            | 30 min                 | 20 min |
+| finish pitch                             | 3 hr                   | 3 hr   |
+| create React & decide hierarchy          | 1 hr                   | 1 hr   |
+| build state and pass through to children | 1 hr                   | 1 hr   |
+| finish building page components          | 2 hr                   | 3 hr   |
+| finish airtable GET/POST components      | 2 hr                   | 2 hr   |
+| Navbar component     | 1 hr                   | 4 hr   |
+| style pages with CSS & flex       | 5 hr                   | 10 hr   |
+| post MVP       | 3 hr                   | 6 hr   |
 | revisions      | 1 hr                   | 1 hr   |
