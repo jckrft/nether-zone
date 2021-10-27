@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Form from 'react-bootstrap/Form'
 import axios from 'axios'
-// import './App.css'
+
 
 
 const API_URL = `https://api.airtable.com/v0/appUtL9vcQjNL8IK8/Table%201?api_key=${process.env.REACT_APP_API_KEY}`
@@ -43,54 +43,36 @@ function Comments() {
   return (
     <div>
       <div className='comment-form'>
-      <Form onSubmit={handlePostRequest}>
-  <Form.Group className="text-name" controlId="exampleForm.ControlInput1">
-    <Form.Label></Form.Label>
-    <Form.Control type="text" placeholder="your name"           value={yourname}
-          onChange={(ev) => setYourname(ev.target.value)}/>
-  </Form.Group>
-  <Form.Group className="text-quote" controlId="exampleForm.ControlTextarea1">
-    <Form.Label></Form.Label>
-            <Form.Control as="textarea" rows={3} placeholder="what was it Shakespeare said?"   value={yourquote}
-          onChange={(ev) => setYourquote(ev.target.value)}/>
+        <Form onSubmit={handlePostRequest}>
+          <Form.Group className="text-name" controlId="exampleForm.ControlInput1">
+          <Form.Label></Form.Label>
+            <Form.Control
+              type="text"
+              placeholder="your name"
+              value={yourname}
+              onChange={(ev) => setYourname(ev.target.value)}/>
+          </Form.Group>
+          <Form.Group className="text-quote" controlId="exampleForm.ControlTextarea1">
+          <Form.Label></Form.Label>
+            <Form.Control
+              as="textarea" rows={3}
+              placeholder="what was it Shakespeare said?"
+              value={yourquote}
+              onChange={(ev) => setYourquote(ev.target.value)}/>
             <input type="submit" />
-  </Form.Group>
-</Form>
-        
-        
-        {/* <form onSubmit={handlePostRequest}>
-      <label htmlFor="commentName">Your Name:</label>
-        <input
-          type="text"
-          id="commentName"
-          placeholder="Your Name"
-          value={yourname}
-          onChange={(ev) => setYourname(ev.target.value)}
-        />
-        
-        <br />
-        
-        <label htmlFor="commentQuote">Comment: </label>
-        <input
-          type="text"
-          id="commentQuote"
-          placeholder="Comment"
-          value={yourquote}
-          onChange={(ev) => setYourquote(ev.target.value)}
-          />
-          <br />
-          <input type="submit" />
-      </form> */}
+          </Form.Group>
+        </Form>
       </div>
 
       <div className='comments'>
-      {comments.map((comment) => (
-        <div className='comment-box' key={comment.id}>
-          <p className='comment-name'>{comment.fields.yourname}:</p>
-          <p className='comment-quote'>{comment.fields.yourquote}</p>
+        {comments.map((comment) => (
+          <div className='comment-box' key={comment.id}>
+            <p className='comment-name'>{comment.fields.yourname}:</p>
+            <p className='comment-quote'>{comment.fields.yourquote}</p>
           </div>
-      ))}
+        ))}
       </div>
+
     </div>
   )
 }
