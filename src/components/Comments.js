@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import Form from 'react-bootstrap/Form'
 import axios from 'axios'
+import './Comments.css'
 
 
 const API_URL = 'https://api.airtable.com/v0/appUtL9vcQjNL8IK8/Table%201?api_key=keyr5pmOBeTGWboAj'
@@ -84,8 +85,8 @@ function Comments({toggleFetch, setToggleFetch}) {
       <div className='comments'>
       {comments.map((comment) => (
         <div>
-          <h1 key={comment.id}>{comment.fields.yourname}:</h1>
-          <h1 >{comment.fields.yourquote}</h1>
+          <p key={comment.id}>{comment.fields.yourname}:</p>
+          <p>{comment.fields.yourquote}</p>
           </div>
       ))}
       </div>

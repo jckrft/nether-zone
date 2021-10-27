@@ -1,3 +1,11 @@
-.comment-form {
+.text-name {
     width: 200px;
+}
+
+.text-quote {
+  width: 300px;
+}
+
+.comments {
+  width: 500px;
 }
