@@ -1,10 +1,49 @@
 
 
-.image {
+.images img{
   display: flex;
   justify-content: center;
-  
+  position:absolute;
+  top:0;
+-webkit-animation-name: fade;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 5s;
+animation-name: fade;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
 }
+
+
+@-webkit-keyframes fade {
+  0% {
+    opacity:1;
+  }
+  45% {
+  opacity:0;
+  }
+  55% {
+  opacity:1;
+  }
+  100% {
+  opacity:0;
+  }
+}
+@keyframes fade {
+  0% {
+  opacity:0;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+
 
 .mark img{
   position: absolute;
@@ -15,6 +54,7 @@
 }
 
 .jez img{
+  -webkit-animation-delay: -4s;
   position: relative;
   top: 10px;
   left: 10px;
