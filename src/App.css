@@ -1,12 +1,18 @@
-.App {
+body {
   background-color: #D0CBCF;
-  display: flex;;
+}
+
+.App {
+  text-align: center;
+  /* display: flex; */
 }
 
 /* ----Nav---- */
 .navbar {
   display: flex;
   height: 120px;
+  background-color: #D0CBCF;
+  width: 100%;
 }
 
 .nav-item {
@@ -15,12 +21,12 @@
 
 .nav {
   text-decoration: none;
-  top:0px;
-  right:0px;
+  /* top:0px;
+  right:0px; */
 }
 
 .menu-icon {
-  float: left
+  float: right;
 }
 
 .home {
@@ -50,6 +56,25 @@ ul {
 } 
 
 /* ----comments---- */
+
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-comment {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 0 auto;
+  /* align-items: center; */
+}
+
+.d-block w-100 {
+  justify-content: center;
+  align-items: center;
+}
+
 .text-name {
   width: 200px;
 }
@@ -63,10 +88,19 @@ width: 400px;
 padding-top: 80px;
 }
 
+.form-control {
+  background-color: white;
+  justify-content: center;
+}
+
 .comment-box {
 border: #D6D6D6 solid 1px;
 border-radius: 8px;
 background-color: white;
+justify-content: center;
+align-items: center;
+display: block;
+  margin: 0 auto;
 }
 
 .comment-name {
@@ -77,18 +111,27 @@ padding: 0px;
 padding-top: 0px;
 }
 
-/* ----Home---- */
-.images {
-  justify-self: center;
+/* .input {
+  justify-content: center;
+  align-items: center;
+} */
 
+/* ----Home---- */
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
 }
 
 .images img{
   position:absolute;
   top:0;
-/* -webkit-animation-name: fade;
+-webkit-animation-name: fade;
 -webkit-animation-iteration-count: infinite;
--webkit-animation-duration: 5s; */
+-webkit-animation-duration: 5s;
 animation-name: fade;
 animation-iteration-count: infinite;
 animation-duration: 5s;
@@ -131,26 +174,35 @@ opacity:.5;
   /* animation-delay: -2s; */
   top: 10px;
   left: 10px;
-  width: 1000px;
+  width: 100%;
   z-index: 2;
 }
 
 .jez img{
   /* -webkit-animation-delay: -4s; */
+  position: absolute;
   animation-delay: -1s;
-  position: relative;
+  position: absolute;
   top: 10px;
   left: 10px;
-  width: 1000px;
+  width: 100%;
   z-index: 1;
 }
 
 /* ----Carousel---- */
-.carousel {
-  /* min-height: 50px; */
+.carousel-all carousel slide {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.carousel-all {
+  min-height: 50px;
   width: 500px;
   height: 300px;
-  /* justify-content: center; */
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
   align-content: center;
 }
 

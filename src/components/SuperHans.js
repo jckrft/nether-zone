@@ -4,9 +4,8 @@ import Comments from './Comments.js'
 import Carousel from 'react-bootstrap/Carousel'
 import "bootstrap/dist/css/bootstrap.min.css"
 
-function SuperHans({ data, toggleFetch, setToggleFetch }) {
+function SuperHans() {
   
-  const superHansData = data.filter(quote => quote.fields.character === 'super hans')
   
 
   return (

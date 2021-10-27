@@ -40,7 +40,7 @@ function Mark({ data, toggleFetch, setToggleFetch }) {
         </Carousel.Item>
         <Carousel.Item>
             <img
-              className="-block w-100"
+              className="d-block w-100"
               src="https://i.pinimg.com/564x/8a/1e/08/8a1e08b10caf2cb560bde3f3842691ca.jpg"
               alt="proper human"
             />
@@ -54,7 +54,7 @@ function Mark({ data, toggleFetch, setToggleFetch }) {
         </Carousel.Item>
         <Carousel.Item>
             <img
-              className="proper d-block w-100"
+              className="d-block w-100"
               src="https://pbs.twimg.com/media/DMLv38oWsAA-FqY?format=jpg&name=small"
               alt="proper human"
             />

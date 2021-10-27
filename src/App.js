@@ -13,11 +13,13 @@ function App() {
   return (
     <div className="App">
 
+      <Navbar />
+      <br />
       <Route exact path="/">
         <Home />
       </Route>
       
-      <Navbar />
+
 
       <Route exact path="/jeremy">
         <Jeremy/>

@@ -41,9 +41,9 @@ function Comments() {
   }
 
   return (
-    <div>
+    <div className='form-comment'>
       <div className='comment-form'>
-        <Form onSubmit={handlePostRequest}>
+        <Form onSubmit={handlePostRequest} className='form-container'>
           <Form.Group className="text-name" controlId="exampleForm.ControlInput1">
           <Form.Label></Form.Label>
             <Form.Control
@@ -63,6 +63,7 @@ function Comments() {
           </Form.Group>
         </Form>
       </div>
+
 
       <div className='comments'>
         {comments.map((comment) => (
