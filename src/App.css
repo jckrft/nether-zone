@@ -2,10 +2,10 @@ body {
   background-color: #D0CBCF;
 }
 
-.App {
-  text-align: center;
+/* .App {
+  /* text-align: center; */
   /* display: flex; */
-}
+ */
 
 /* ----Nav---- */
 .navbar {
@@ -15,34 +15,40 @@ body {
   width: 100%;
 }
 
-.nav-item {
-  padding: 0px;
-}
+/* .nav-item {
+  padding: 10px;
+} */
 
 .nav {
   text-decoration: none;
-  /* top:0px;
-  right:0px; */
+  color: grey;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 70px;
 }
 
 .menu-icon {
-  float: right;
+  padding-top: 70px;
+  padding-right: 0px;
 }
+
+.fas fa-
 
 .home {
   padding: 10px;
   padding-left: 20px;
 }
 
-
-
 ul {
   list-style: none;
 }
 
-
 .nav-menu {
   display: none;
+}
+
+.nav menu active {
+  padding-left: 0px;
 }
 
 .active {
