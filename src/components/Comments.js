@@ -4,12 +4,13 @@ import axios from 'axios'
 // import './App.css'
 
 
-const API_URL = 'https://api.airtable.com/v0/appUtL9vcQjNL8IK8/Table%201?api_key=keyr5pmOBeTGWboAj'
+const API_URL = `https://api.airtable.com/v0/appUtL9vcQjNL8IK8/Table%201?api_key=${process.env.REACT_APP_API_KEY}`
 
-function Comments({toggleFetch, setToggleFetch}) {
+function Comments() {
   const [comments, setComments] = useState([]);
   const [yourname, setYourname] = useState('');
   const [yourquote, setYourquote] = useState('');
+  const [toggleFetch, setToggleFetch] = useState(true);
   
 
   useEffect(() => {

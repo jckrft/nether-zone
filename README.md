@@ -65,14 +65,14 @@ Airtable was used to create and store addition comments & quotes from users.
 ### Timeframe
 | Task                                     | Estimated              | Actual |
 | -------------                            |:-------------:         | -----: |
-| creating API                             | 20 min                 | 20 min  |
+| creating API                             | 20 min                 | 20 min |
 | solidify idea                            | 30 min                 | 20 min |
 | finish pitch                             | 3 hr                   | 3 hr   |
 | create React & decide hierarchy          | 1 hr                   | 1 hr   |
 | build state and pass through to children | 1 hr                   | 1 hr   |
 | finish building page components          | 2 hr                   | 3 hr   |
 | finish airtable GET/POST components      | 2 hr                   | 2 hr   |
-| Navbar component     | 1 hr                   | 4 hr   |
-| style pages with CSS & flex       | 5 hr                   | 10 hr   |
-| post MVP       | 3 hr                   | 6 hr   |
-| revisions      | 1 hr                   | 1 hr   |
+| Navbar component                         | 1 hr                   | 4 hr   |
+| style pages with CSS & flex              | 5 hr                   | 10 hr  |
+| post MVP                                 | 3 hr                   | 6 hr   |
+| revisions                                | 1 hr                   | 1 hr   |

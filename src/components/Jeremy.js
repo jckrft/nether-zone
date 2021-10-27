@@ -11,7 +11,7 @@ function Jeremy({ data, toggleFetch, setToggleFetch }) {
   
   return (
     <div>
-      <Carousel>
+      <Carousel className='carousel-all'>
         <Carousel.Item>
             <img
               className="proper d-block w-100"

@@ -10,7 +10,7 @@ function Mark({ data, toggleFetch, setToggleFetch }) {
   
   return (
     <div>
-      <Carousel>
+      <Carousel className='carousel-all'>
       
         <Carousel.Item>
             <img
