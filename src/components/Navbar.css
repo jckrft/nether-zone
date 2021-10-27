@@ -1,5 +1,14 @@
+.nav-item {
+  padding: 10px;
+}
+
+.home {
+  padding: 10px;
+  padding-left: 20px;
+}
 
 
+/* 
 ul {
   list-style: none;
 }
@@ -17,4 +26,4 @@ ul {
 .nav-links {
   color: grey;
   text-decoration: none;
-}
+}  */

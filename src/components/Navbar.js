@@ -11,8 +11,8 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false)
   
   return (
-    <div >
-      <nav className="nav nav-tabs">
+    <div className='navbar'>
+      {/* <nav className="navbar">
         <Link to='/' className='nav'>
           nether zone
         </Link>
@@ -22,12 +22,12 @@ function Navbar() {
         </div> 
   
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='active'>
+          <li className='nav-item'>
             <Link to='/mark' className='nav-links' onClick={closeMobileMenu}>
               Mark
             </Link>
           </li>
-          <li className='active'>
+          <li className='nav-item'>
             <Link to='/jeremy' className='nav-links' onClick={closeMobileMenu}>
               Jeremy
             </Link>
@@ -38,27 +38,24 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
       
       
       
-      
-      {/* <nav>
-      <Link to='/'>
+      <Link to='/' className='home'>
         nether zone
         </Link>
-        
-        
-      <Link to='/mark' exact>
+      <nav>
+      <Link to='/mark' exact className='nav-item'>
           Mark
         </Link>
-        <Link to='/jeremy' exact>
+        <Link to='/jeremy' exact className='nav-item'>
           Jeremy
         </Link>
-        <Link to='/superhans'>
+        <Link to='/superhans' exact className='nav-item'>
           Super Hans
         </Link>
-      </nav> */}
+      </nav>
     
     </div>
   )
