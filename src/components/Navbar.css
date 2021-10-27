@@ -1,3 +1,7 @@
+/* * {
+  display: flex;
+} */
+
 .nav-menu {
   display: none;
 }
@@ -8,6 +12,7 @@ ul {
 
 .active {
   display: block;
+  justify-content: end;
 }
 
 .nav-links {
