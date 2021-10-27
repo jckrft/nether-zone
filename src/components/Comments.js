@@ -84,9 +84,9 @@ function Comments({toggleFetch, setToggleFetch}) {
 
       <div className='comments'>
       {comments.map((comment) => (
-        <div>
-          <p key={comment.id}>{comment.fields.yourname}:</p>
-          <p>{comment.fields.yourquote}</p>
+        <div className='comment-box' key={comment.id}>
+          <p className='comment-name'>{comment.fields.yourname}:</p>
+          <p className='comment-quote'>{comment.fields.yourquote}</p>
           </div>
       ))}
       </div>

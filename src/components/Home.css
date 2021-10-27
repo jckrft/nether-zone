@@ -1,22 +1,23 @@
-/* *{
-  background-color: #D6D6D6;
-} */
+
 
 .image {
   display: flex;
-  /* position: relative; */
+  justify-content: center;
   
 }
 
 .mark img{
   position: absolute;
+  top: 10px;
+  left: 10px;
   width: 1000px;
-  justify-items: center;
-  /* height: 50px; */
+  z-index: 2;
 }
 
 .jez img{
-  position: absolute;
+  position: relative;
+  top: 10px;
+  left: 10px;
   width: 1000px;
-  justify-items: center;
+  z-index: 1;
 }

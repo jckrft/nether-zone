@@ -7,5 +7,20 @@
 }
 
 .comments {
-  width: 500px;
+  width: 400px;
+  padding-top: 80px;
+}
+
+.comment-box {
+  border: #D6D6D6 solid 1px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.comment-name {
+  padding: 0px;
+}
+
+.comment-quote {
+  padding-top: 0px;
 }
