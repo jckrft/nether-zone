@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import './Navbar.css'
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function Navbar() {
   const [click, setClick] = useState(false)
@@ -11,7 +12,7 @@ function Navbar() {
   
   return (
     <div >
-      <nav className="navbar">
+      <nav className="nav nav-tabs">
         <Link to='/' className='nav'>
           nether zone
         </Link>
@@ -21,12 +22,12 @@ function Navbar() {
         </div> 
   
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
+          <li className='active'>
             <Link to='/mark' className='nav-links' onClick={closeMobileMenu}>
               Mark
             </Link>
           </li>
-          <li className='nav-item'>
+          <li className='active'>
             <Link to='/jeremy' className='nav-links' onClick={closeMobileMenu}>
               Jeremy
             </Link>

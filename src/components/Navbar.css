@@ -1,13 +1,12 @@
-/* * {
-  display: flex;
-} */
 
-.nav-menu {
-  display: none;
-}
 
 ul {
   list-style: none;
+}
+
+
+.nav-menu {
+  display: none;
 }
 
 .active {
