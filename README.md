@@ -76,3 +76,21 @@ Airtable was used to create and store addition comments & quotes from users.
 | style pages with CSS & flex              | 5 hr                   | 10 hr  |
 | post MVP                                 | 3 hr                   | 6 hr   |
 | revisions                                | 1 hr                   | 1 hr   |
+
+### SWOT Analysis
+
+Strengths:
+
+I feel fairly comfortable with React. I am confident in the actual building of the React components, as well as Airtable. 
+
+Weaknesses: 
+
+There are some aspects of React that I am not totally clear on, namely useParams. At times passing passing state and props can be confusing. I do not like class components and prefer functional. 
+
+Opportunities: 
+
+This project will allow me to practice and put into use the things I have learned. The process of debugging should also be informative. Having to continue to use CSS will also better strengthen these skills. 
+
+Threats: 
+
+I tend to throw everything at the wall to see what sticks, so to speak, when dealing with CSS. I know especially with this how that can be detrimental and conflict with other styles without my knowledge. I also often start something else before I am finished with what I am doing, so it would help to be more clear and organized. 

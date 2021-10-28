@@ -21,7 +21,7 @@ function Home() {
       <div className='home-footer'>
         <footer>
           <p className='copywrite'>© jckrft 2021</p>
-          <p className='art-link'>Artwork by Ross Cooke courtesy of <ExternalLink href='https://dobby-club.com/'>Dobby Club</ExternalLink></p>
+          <p className='art-link'>Artwork by Ross Cooke courtesy of <ExternalLink className='external-link' href='https://dobby-club.com/'>Dobby Club</ExternalLink></p>
         </footer>
       </div>
       

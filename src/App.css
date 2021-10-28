@@ -1,15 +1,10 @@
 body {
   background-color: #D0CBCF !important;
   font-family: 'Abel', sans-serif;
-
 }
 
-/* .App {
-  /* text-align: center; */
-  /* display: flex; */
- */
-
 /* ----Nav---- */
+*/
 .navbar {
   display: flex;
   height: 120px;
@@ -56,7 +51,7 @@ ul {
   font-size: small;
 } 
 
-/* ----comments---- */
+/* ----Comments---- */
 
 .header {
   display: flex;
@@ -128,9 +123,7 @@ padding-left: 5px;
 }
 
 .comment-quote {
-/* padding-top: 0px; */
 margin-bottom: 5px;
-/* padding-left: 10px; */
 padding: 0px 5px 0px 12px;
 }
 
@@ -210,7 +203,6 @@ opacity:.5;
 }
 
 .jez img{
-  /* -webkit-animation-delay: -4s; */
   position: absolute;
   animation-delay: -1s;
   top: 10px;
@@ -220,6 +212,7 @@ opacity:.5;
 }
 
 /* ----Carousel---- */
+
 .carousel-all carousel slide {
   display: flex;
   justify-content: center;
@@ -242,6 +235,8 @@ opacity:.5;
   object-fit: cover;
 }
 
+/* ----Footer---- */
+
 .home-footer {
   left: 0;
   bottom: 0;
@@ -249,6 +244,11 @@ opacity:.5;
   text-align: center;
   padding-top: 2200px;
 }
+
+.external-link {
+  color: grey;
+}
+
 .footer {
   left: 0;
   bottom: 0;
@@ -266,6 +266,8 @@ opacity:.5;
   font-size: xx-small;
   padding-top: 0px;
 }
+
+/* ----Media Query---- */
 
 @media only screen and (max-width: 600px) {
   .nav {
