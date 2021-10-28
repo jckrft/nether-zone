@@ -62,23 +62,23 @@ ul {
 /* ----comments---- */
 
 .form-container {
-  width: 100%;
+  width: 10%;
   margin: 0 auto;
   
 }
 
 .form-comment {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   /* width: 50%; */
   margin: 0 auto;
   
 }
 
-.d-block w-100 {
+/* .d-block w-100 {
   justify-content: center;
   align-items: center;
-}
+} */
 
 .text-name {
   width: 200px;
@@ -91,6 +91,7 @@ width: 200px;
 .comments {
 width: 400px;
 padding-top: 80px;
+margin: 0 auto;
 }
 
 .form-control {
@@ -109,11 +110,6 @@ margin: 0 auto;
 
 }
 
-.comments {
-  /* margin: 0 auto; */
-  float:right;
-}
-
 .comment-name {
 padding: 0px;
 }
@@ -130,12 +126,24 @@ padding-top: 0px;
 /* ----Home---- */
 
 .images {
+  background-color: #D0CBCF;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   position: relative;
+
 }
+
+.img {
+  margin-top: 100px;
+}
+
+/* 
+https://stackoverflow.com/questions/17954874/cross-fade-between-images-with-css-in-loop
+http://css3.bradshawenterprises.com/cfimg/
+https://stackoverflow.com/questions/4010624/overlap-images-in-css/4010664
+*/
 
 .images img{
   position:absolute;
@@ -186,17 +194,21 @@ opacity:.5;
   left: 10px;
   width: 100%;
   z-index: 2;
+  background-color: #D0CBCF;
 }
 
 .jez img{
   /* -webkit-animation-delay: -4s; */
   position: absolute;
   animation-delay: -1s;
-  position: absolute;
   top: 10px;
   left: 10px;
   width: 100%;
   z-index: 1;
+}
+
+.div.mark {
+  background-color: #D0CBCF;
 }
 
 /* ----Carousel---- */
@@ -217,8 +229,8 @@ opacity:.5;
 }
 
 .carousel .item {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 

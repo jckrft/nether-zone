@@ -1,4 +1,4 @@
-# the-nether-zone
+# nether-zone
 
 ### App Title: 
 nether zone                                      
@@ -58,7 +58,7 @@ Airtable was used to create and store addition comments & quotes from users.
 | Sunday 10/24    | axios request/component structure   |   y   |
 | Monday 10/25    | finish building out components      |   y   |
 | Tuesday 10/26   | build nav bar and work on css       |   y   |
-| Wednesday 10/27 | continue styling and nav bar        |       |
+| Wednesday 10/27 | continue styling and nav bar        |   y   |
 | Thursday 10/28  | polish                              |       |
 | Friday 10/29    | present                             |       |
 
