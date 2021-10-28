@@ -302,3 +302,8 @@ opacity:.5;
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .home-footer {
+    padding-top: 600px;
+  }
+}
