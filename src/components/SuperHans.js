@@ -47,17 +47,12 @@ function SuperHans({ toggleFetch, setToggleFetch }) {
               alt="proper human"
             />
         </Carousel.Item>
-        
-        {/* {superHansData.map((superhans) => (
-          <Carousel.Caption>
-            <h1>{superhans.fields.series}</h1>
-            <h1>{superhans.fields.title}</h1>
-          </Carousel.Caption>
-        ))} */}
       </Carousel>
+      
       <Comments
         setToggleFetch={setToggleFetch}
-        toggleFetch={toggleFetch}/>
+        toggleFetch={toggleFetch}
+      />
       
       <Footer />
     </div>

@@ -5,7 +5,6 @@ import SuperHans from './components/SuperHans.js'
 import Mark from './components/Mark.js'
 import Home from './components/Home.js'
 import Navbar from './components/Navbar.js'
-import Footer from './components/Footer.js'
 import './App.css'
 
 

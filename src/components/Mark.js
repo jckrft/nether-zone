@@ -2,11 +2,8 @@ import Comments from './Comments.js'
 import Footer from './Footer.js';
 import Carousel from 'react-bootstrap/Carousel'
 
-// import './App.css'
 
-function Mark({ data, toggleFetch, setToggleFetch }) {
-  
-  // const markData = data.filter(quote => quote.fields.character === 'mark')
+function Mark({ toggleFetch, setToggleFetch }) {
   
   return (
     <div>
@@ -19,11 +16,6 @@ function Mark({ data, toggleFetch, setToggleFetch }) {
               alt="proper human"
             />
         </Carousel.Item>
-        
-        
-        {/* <Carousel.Caption>
-          <h1>crunchy nut</h1>
-        </Carousel.Caption> */}
                 <Carousel.Item>
             <img
               className="d-block w-100"
@@ -54,11 +46,14 @@ function Mark({ data, toggleFetch, setToggleFetch }) {
         </Carousel.Item>
 
       </Carousel>
+
       <Comments
         setToggleFetch={setToggleFetch}
         toggleFetch={toggleFetch}
       />
+
       <Footer />
+      
     </div>
   )
 }
