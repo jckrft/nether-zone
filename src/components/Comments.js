@@ -41,7 +41,11 @@ function Comments() {
   }
 
   return (
+
     <div className='form-comment'>
+      <div className='header'>
+      <p className='header-detail'>did we miss your favorite line? drop it here</p>
+    </div>
       <div className='comment-form'>
         <Form onSubmit={handlePostRequest} className='form-container'>
           <Form.Group className="text-name" controlId="exampleForm.ControlInput1">
