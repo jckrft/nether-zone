@@ -97,7 +97,7 @@ justify-content: center;
 
 .comments {
 width: 400px;
-padding-top: 80px;
+padding-top: 50px;
 margin: 0 auto;
 color: #6C757D;
 }
@@ -136,7 +136,6 @@ margin-bottom: 10px;
 /* ----Home---- */
 
 .images {
-  background-color: #D0CBCF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -170,7 +169,7 @@ animation-direction: alternate;
 
 @-webkit-keyframes fade {
   0% {
-    opacity:1;
+    opacity:.5;
   }
   55% {
   opacity:.5;
@@ -179,7 +178,7 @@ animation-direction: alternate;
   opacity:.2;
   }
   100% {
-  opacity:.5;
+  opacity:1;
   }
 }
 @keyframes fade {
@@ -204,7 +203,6 @@ opacity:.5;
   left: 10px;
   width: 100%;
   z-index: 2;
-  background-color: #D0CBCF;
 }
 
 .jez img{
@@ -215,10 +213,6 @@ opacity:.5;
   left: 10px;
   width: 100%;
   z-index: 1;
-}
-
-.div.mark {
-  background-color: #D0CBCF;
 }
 
 /* ----Carousel---- */
