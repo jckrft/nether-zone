@@ -33,20 +33,23 @@ function Jeremy({ data, toggleFetch, setToggleFetch }) {
               alt="proper human"
             />
         </Carousel.Item>
-                <Carousel.Item>
+                
+        <Carousel.Item>
+            <img
+              className="proper d-block w-100"
+              src="https://64.media.tumblr.com/cec52d83c8be9e368e56abd7fe1cc915/tumblr_ofiy2i9XVj1vfz7jgo1_1280.png"
+              alt="proper human"
+            />
+        </Carousel.Item>
+        
+        <Carousel.Item>
             <img
               className="proper d-block w-100"
               src="https://i.imgur.com/WZSFO7e.jpg"
               alt="proper human"
             />
         </Carousel.Item>
-                <Carousel.Item>
-            <img
-              className="proper d-block w-100"
-              src="https://64.media.tumblr.com/7b58334650e8173b8de2738c085adae1/tumblr_ofocsdlVAQ1vfz7jgo2_1280.png"
-              alt="proper human"
-            />
-        </Carousel.Item>
+
       
       </Carousel>
       
