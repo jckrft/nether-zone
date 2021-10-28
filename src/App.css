@@ -32,8 +32,6 @@ body {
   padding-right: 0px;
 }
 
-.fas fa-
-
 .home {
   padding: 10px;
   padding-left: 20px;
@@ -225,3 +223,19 @@ opacity:.5;
   object-fit: cover;
 }
 
+@media only screen and (max-width: 600px) {
+  .nav {
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+
+  .menu-icon {
+    padding-top: 10px;
+  }
+
+  .carousel-all {
+    width: 100%;
+    height: 250px;
+  }
+}

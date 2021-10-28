@@ -52,13 +52,6 @@ function Mark({ data, toggleFetch, setToggleFetch }) {
               alt="proper human"
             />
         </Carousel.Item>
-        <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="https://pbs.twimg.com/media/DMLv38oWsAA-FqY?format=jpg&name=small"
-              alt="proper human"
-            />
-        </Carousel.Item>
 
       </Carousel>
       <Comments
