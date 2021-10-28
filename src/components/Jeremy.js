@@ -22,14 +22,14 @@ function Jeremy({ data, toggleFetch, setToggleFetch }) {
                 <Carousel.Item>
             <img
               className="proper d-block w-100"
-              src="https://64.media.tumblr.com/b15b097359e5cbe469fa6d4b859e9477/tumblr_ofx1dovQaf1vfz7jgo1_1280.png"
+              src="https://64.media.tumblr.com/3b51ef35376839e714411d8604262360/tumblr_oggqf0YyMU1vfz7jgo1_1280.png"
               alt="proper human"
             />
         </Carousel.Item>
                 <Carousel.Item>
             <img
               className="proper d-block w-100"
-              src="https://pbs.twimg.com/media/EIJEdVkX4AELm7q?format=jpg&name=small"
+              src="https://64.media.tumblr.com/cc54248bbc943cc82d3aae6ceeb1b09b/tumblr_ofx1b6lFZP1vfz7jgo1_1280.png"
               alt="proper human"
             />
         </Carousel.Item>
@@ -43,7 +43,7 @@ function Jeremy({ data, toggleFetch, setToggleFetch }) {
                 <Carousel.Item>
             <img
               className="proper d-block w-100"
-              src="https://pbs.twimg.com/media/DIj2s3fXkAIlQg4?format=jpg&name=large"
+              src="https://64.media.tumblr.com/7b58334650e8173b8de2738c085adae1/tumblr_ofocsdlVAQ1vfz7jgo2_1280.png"
               alt="proper human"
             />
         </Carousel.Item>
