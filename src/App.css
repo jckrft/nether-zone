@@ -1,5 +1,5 @@
 body {
-  background-color: #D0CBCF;
+  background-color: #D0CBCF !important;
 }
 
 /* .App {
@@ -196,6 +196,9 @@ opacity:.5;
 }
 }
 
+.mark {
+  background-color: #D0CBCF;
+}
 
 .mark img{
   position: absolute;
