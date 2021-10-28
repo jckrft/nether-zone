@@ -1,5 +1,5 @@
 import Comments from './Comments.js'
-
+import Footer from './Footer.js';
 import Carousel from 'react-bootstrap/Carousel'
 
 // import './App.css'
@@ -58,6 +58,7 @@ function Mark({ data, toggleFetch, setToggleFetch }) {
         setToggleFetch={setToggleFetch}
         toggleFetch={toggleFetch}
       />
+      <Footer />
     </div>
   )
 }

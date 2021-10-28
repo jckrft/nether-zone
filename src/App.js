@@ -35,7 +35,7 @@ function App() {
         <Mark/>
       </Route>
 
-      <Footer />
+
     </div>
   );
 }

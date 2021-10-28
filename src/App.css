@@ -1,6 +1,7 @@
 body {
   background-color: #D0CBCF !important;
   font-family: 'Abel', sans-serif;
+
 }
 
 /* .App {
@@ -242,6 +243,31 @@ opacity:.5;
   object-fit: cover;
 }
 
+.home-footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 900px;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.copywrite {
+  font-size: xx-small;
+  padding-bottom: 0px;
+}
+
+.art-link {
+  font-size: xx-small;
+  padding-top: 0px;
+}
+
 @media only screen and (max-width: 600px) {
   .nav {
     padding-left: 15px;
@@ -262,3 +288,4 @@ opacity:.5;
     height: 250px;
   }
 }
+

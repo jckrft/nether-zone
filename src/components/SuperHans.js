@@ -1,10 +1,10 @@
 import Comments from './Comments.js'
-// import './App.css'
+import Footer from './Footer.js';
 
 import Carousel from 'react-bootstrap/Carousel'
 import "bootstrap/dist/css/bootstrap.min.css"
 
-function SuperHans() {
+function SuperHans({ toggleFetch, setToggleFetch }) {
   
   
 
@@ -55,7 +55,11 @@ function SuperHans() {
           </Carousel.Caption>
         ))} */}
       </Carousel>
-      <Comments />
+      <Comments
+        setToggleFetch={setToggleFetch}
+        toggleFetch={toggleFetch}/>
+      
+      <Footer />
     </div>
   )
 }

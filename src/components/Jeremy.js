@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel'
 import Comments from './Comments.js'
+import Footer from './Footer.js';
 // import './App.css'
 
 
@@ -67,6 +68,10 @@ function Jeremy({ data, toggleFetch, setToggleFetch }) {
         setToggleFetch={setToggleFetch}
         toggleFetch={toggleFetch}
       />
+          <div>
+      <Footer/>
+    </div>
+  
     </div>
   )
 }
