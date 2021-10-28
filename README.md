@@ -9,8 +9,8 @@ the best peep show quotes built using Airtable and React. The menu features page
 ### Wireframes: 
 https://whimsical.com/the-nether-zone-5ua3FPNVeMUaWc1FNQWCVM
 
-![imageAlt](https://imgur.com/a/SDqkYZI)
-![imageAlt](https://imgur.com/a/yK6njZF)
+![Screen Shot 2021-10-28 at 5.44.13 PM](https://imgur.com/a/SDqkYZI)
+![Screen Shot 2021-10-28 at 5.48.28 PM](https://imgur.com/a/yK6njZF)
 
 ### Component Hierarchy:
 
