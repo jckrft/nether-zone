@@ -17,10 +17,6 @@ body {
   width: 100%;
 }
 
-/* .nav-item {
-  padding: 10px;
-} */
-
 .nav {
   text-decoration: none;
   color: grey;
@@ -51,8 +47,7 @@ ul {
 }
 
 .active {
-  display: inline;
-  /* justify-content: end; */
+  display: block;
 }
 
 .nav-links {
@@ -85,30 +80,24 @@ ul {
 }
 
 .form-comment {
-  /* display: flex; */
   justify-content: center;
-  /* width: 50%; */
   margin: 0 auto;
   
 }
 
-/* .d-block w-100 {
-  justify-content: center;
-  align-items: center;
-} */
-
 .text-name {
-  width: 190px;
+  width: 180px;
   padding-right: 50px;
 }
 
 .text-quote {
 margin: auto 0;
+width: 250px;
 }
 
-/* .submit {
-  padding-top: 50px;;
-} */
+.submit {
+  margin-top: 10px;
+}
 
 .comments {
 width: 400px;
@@ -135,17 +124,15 @@ margin: 0 auto;
 .comment-name {
 padding: 0px;
 margin-bottom: 10px;
+padding-left: 5px;
 }
 
 .comment-quote {
-padding-top: 0px;
-margin-bottom: 10px;
+/* padding-top: 0px; */
+margin-bottom: 5px;
+/* padding-left: 10px; */
+padding: 0px 5px 0px 12px;
 }
-
-/* .input {
-  justify-content: center;
-  align-items: center;
-} */
 
 /* ----Home---- */
 
