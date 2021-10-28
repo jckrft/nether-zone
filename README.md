@@ -7,12 +7,16 @@ https://vigilant-clarke-36639b.netlify.app/
 the best peep show quotes built using Airtable and React. The menu features pages for each character, when clicked they will show a carosel of best quotes along with information such as series and episode number and name. Each page will also feature a comment section to add your own favorite quote.
 
 ### Wireframes: 
+
 https://whimsical.com/the-nether-zone-5ua3FPNVeMUaWc1FNQWCVM
 
-![Screen Shot 2021-10-28 at 5.44.13 PM](https://imgur.com/a/SDqkYZI)
-![Screen Shot 2021-10-28 at 5.48.28 PM](https://imgur.com/a/yK6njZF)
+![imageAlt](https://i.imgur.com/B65BlMI.png "wireframe")
+![imageAlt](https://i.imgur.com/h4uRZul.png "jeremy page")
+![imageAlt](https://i.imgur.com/cqbitgJ.png "wireframe for mobile")
 
 ### Component Hierarchy:
+
+![imageAlt](https://i.imgur.com/aceg0Wm.png "component hierarchy")
 
 ### API: 
 Airtable was used to create and store addition comments & quotes from users. 
