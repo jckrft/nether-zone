@@ -43,21 +43,22 @@ function Comments() {
   return (
 
     <div className='form-comment'>
+      
       <div className='header'>
-      <p className='header-detail'>did we miss your favorite line? drop it here</p>
-    </div>
+        <p className='header-detail'>did we miss your favorite line? drop it here</p>
+      </div>
+
       <div className='comment-form'>
         <Form onSubmit={handlePostRequest} className='form-container'>
           <Form.Group className="text-name" controlId="exampleForm.ControlInput1">
-          <Form.Label></Form.Label>
             <Form.Control
               type="text"
               placeholder="name"
               value={yourname}
               onChange={(ev) => setYourname(ev.target.value)}/>
           </Form.Group>
+
           <Form.Group className="text-quote" controlId="exampleForm.ControlTextarea1">
-          <Form.Label></Form.Label>
             <Form.Control
               as="textarea" rows={2}
               placeholder="what was it Shakespeare said?"

@@ -73,7 +73,7 @@ ul {
 }
 
 .header-detail {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .form-container {
@@ -103,7 +103,7 @@ ul {
 }
 
 .text-quote {
-justify-content: center;
+margin: auto 0;
 }
 
 /* .submit {
@@ -309,7 +309,7 @@ opacity:.5;
   }
 
   .home-footer {
-    padding-top: 600px;
+    padding-top: 900px;
   }
 }
 
