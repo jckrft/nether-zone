@@ -64,7 +64,7 @@ function Comments() {
         </Form>
       </div>
 
-
+<br />
       <div className='comments'>
         {comments.map((comment) => (
           <div className='comment-box' key={comment.id}>

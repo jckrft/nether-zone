@@ -64,16 +64,17 @@ ul {
 /* ----comments---- */
 
 .form-container {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
+  
 }
 
 .form-comment {
   display: flex;
-  justify-content: space-between;
-  width: 50%;
+  justify-content: center;
+  /* width: 50%; */
   margin: 0 auto;
-  /* align-items: center; */
+  
 }
 
 .d-block w-100 {
@@ -86,7 +87,7 @@ ul {
 }
 
 .text-quote {
-width: 300px;
+width: 200px;
 }
 
 .comments {
@@ -106,7 +107,13 @@ background-color: white;
 justify-content: center;
 align-items: center;
 display: block;
-  margin: 0 auto;
+margin: 0 auto;
+
+}
+
+.comments {
+  /* margin: 0 auto; */
+  float:right;
 }
 
 .comment-name {
