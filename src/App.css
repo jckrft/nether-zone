@@ -62,7 +62,9 @@ ul {
 /* ----comments---- */
 
 .form-container {
-  width: 10%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   margin: 0 auto;
   
 }
@@ -81,17 +83,23 @@ ul {
 } */
 
 .text-name {
-  width: 200px;
+  width: 190px;
+  padding-right: 50px;
 }
 
 .text-quote {
-width: 200px;
+justify-content: center;
 }
+
+/* .submit {
+  padding-top: 50px;;
+} */
 
 .comments {
 width: 400px;
 padding-top: 80px;
 margin: 0 auto;
+color: #6C757D;
 }
 
 .form-control {
@@ -100,9 +108,9 @@ margin: 0 auto;
 }
 
 .comment-box {
-border: #D6D6D6 solid 1px;
+border: #CED4DA solid 1px;
 border-radius: 8px;
-background-color: white;
+background-color: #FFFFFF;
 justify-content: center;
 align-items: center;
 display: block;
@@ -112,10 +120,12 @@ margin: 0 auto;
 
 .comment-name {
 padding: 0px;
+margin-bottom: 10px;
 }
 
 .comment-quote {
 padding-top: 0px;
+margin-bottom: 10px;
 }
 
 /* .input {

@@ -48,18 +48,18 @@ function Comments() {
           <Form.Label></Form.Label>
             <Form.Control
               type="text"
-              placeholder="your name"
+              placeholder="name"
               value={yourname}
               onChange={(ev) => setYourname(ev.target.value)}/>
           </Form.Group>
           <Form.Group className="text-quote" controlId="exampleForm.ControlTextarea1">
           <Form.Label></Form.Label>
             <Form.Control
-              as="textarea" rows={3}
+              as="textarea" rows={2}
               placeholder="what was it Shakespeare said?"
               value={yourquote}
               onChange={(ev) => setYourquote(ev.target.value)}/>
-            <input type="submit" />
+            <input type="submit" className='submit'/>
           </Form.Group>
         </Form>
       </div>
