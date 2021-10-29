@@ -47,8 +47,9 @@ Airtable was used to create and store addition comments & quotes from users.
 ### MVP 
 
 * Create React app
-* Create and impliment Airtable with a GET and POST
-* Utilize six separate components
+* Create and impliment Airtable
+* Use Axios for a GET and POST
+* Utilize six components
 * Style using CSS & Flex Box 
 * Using Bootstrap carousel, populate each page with specific quote images  
 * Add a media query for mobile                                            
@@ -74,7 +75,7 @@ Airtable was used to create and store addition comments & quotes from users.
 | -------------                            |:-------------:         | -----: |
 | creating API                             | 20 min                 | 20 min |
 | solidify idea                            | 30 min                 | 20 min |
-| finish pitch                             | 3 hr                   | 3 hr   |
+| finish pitch                             | 3 hr                   | 4 hr   |
 | create React & decide hierarchy          | 1 hr                   | 1 hr   |
 | build state and pass through to children | 1 hr                   | 1 hr   |
 | finish building page components          | 2 hr                   | 3 hr   |
